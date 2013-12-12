@@ -50,7 +50,7 @@ main ()
 	lo_address t = lo_address_new("127.0.0.1", "7770");
 
 	for (;;){
-		val = mcp3002_read(fd, 0);
+		val = mcp3002_read(fd, 1);  // read pot value from channel 1
 
 		debug("Channel 0: %d, Channel 1: %d\n", mcp3002_read(fd, 0), mcp3002_read(fd, 1));
 		
