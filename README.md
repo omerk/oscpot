@@ -4,9 +4,9 @@ An experiment with Open Sound Control and RPi hardware.
 
 ## Instructions
 
-  `make dep` : Get pihwm from Github and install liblo Debian packages.
-  `make` : Build pihwm and oscpot.
-  `make debug` : Build with `DEBUG` flag, which enables verbose output.
+  - `make dep` : Get pihwm from Github and install liblo Debian packages.
+  - `make` : Build pihwm and oscpot.
+  - `make debug` : Build with `DEBUG` flag, which enables verbose output.
 
 ## License
 
